@@ -1,0 +1,64 @@
+General Page Styling
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Headings */
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: #4a90e2;
+}
+
+/* Card Sections */
+.card {
+  background-color: white;
+  margin: 20px;            /* Outside spacing */
+  padding: 50px;           /* Inside spacing */
+  border: 2px solid #ccc;  /* Border */
+  border-radius: 8px;      /* Rounded corners */
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 30px 50px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #357ab7;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  margin-top: 20px;
+}
